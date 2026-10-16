@@ -158,3 +158,16 @@ a.tarjeta:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(36,86,216
 .menu a{transition:background .2s,color .2s}
 .menu a:hover{color:var(--azul)}
 .menu a.activo:hover{color:#fff}
+
+/* Aplicación, reflexión y pie de página */
+.pendiente{color:var(--suave);font-style:italic}
+.ficha dl{margin:0}
+.ficha dt{font-weight:800;margin-top:14px}
+.ficha dt:first-child{margin-top:0}
+.ficha dd{margin:2px 0 0}
+.panel i{font-style:italic}
+.pie-pagina{
+  margin-top:80px;padding:26px 5vw;text-align:center;
+  color:var(--suave);font-size:.92rem;
+  border-top:1px solid var(--linea);background:var(--blanco);
+}
